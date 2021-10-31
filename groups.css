@@ -1,0 +1,28 @@
+.background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 480px;
+    width: 100%;
+    background-blend-mode: hard-light;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+.col-item{
+    width: 50%;
+    float: left;
+}
+.col-cost{
+    width: 50%;
+    float: left;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+}
+.responsive {
+    max-width: 100%;
+    height: auto;
+  }
