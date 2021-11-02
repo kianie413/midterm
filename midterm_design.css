@@ -101,22 +101,7 @@ background: #abdbe350;
 color: black;
 }
 
-.main {
-padding: 16px;
-margin-bottom: 30px;
-height: 1500px; /* Used in this example to enable scrolling */
-}
 
-.column {
-    float: left;
-    width: 50%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 @media screen and (max-width: 600px) {
     .column {
