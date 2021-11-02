@@ -97,7 +97,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 font-size: 17px;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn{
+.nav a:hover, .dropdown:hover .dropbtn{
 background: #abdbe350;
 color: black;
 }
