@@ -60,7 +60,8 @@ a {
     width: 80%;
     left: 20%;
     margin: 0 auto; /* Center the DIV horizontally */
-    
+    text-align:center;
+    align-items: center;
 }
 
 .container_2{
