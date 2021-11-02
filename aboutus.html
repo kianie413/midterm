@@ -63,9 +63,11 @@
             </div>
             <div class="column2">
                 <h3>Interns</h3>
-                <h4>Carolina Olea Lezama '22 <em>Programming Intern</em><br>
-                Jed Quiaoit '25 <em>Programming Intern</em><br>
-                Bella Hook '25 <em>Social Media Intern</em></h4>
+                <pre id="arrPrint"></pre>
+                <script type="text/javascript">
+                let arr = [{name: "Carolina Olea Lezama '22, Programming Intern"}, {name: "Jed Quiaoit '25, Programming Intern"}, {name: "Bella Hook '25, Social Media Intern"}];
+                document.getElementById("arrPrint").innerHTML = JSON.stringify(arr, null, 2);
+                </script>
             </div>
         </div>
         
