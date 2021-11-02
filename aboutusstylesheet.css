@@ -3,6 +3,7 @@
     width: 60%;
     height: 326px;
     background-color: #c3e9f2;
+    text-align: center;
 }
 .row:after {
     content: "";
