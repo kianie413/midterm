@@ -65,10 +65,11 @@
                 <pre id="arrPrint"></pre>
                 <script type="text/javascript">
                 let arr = ["Carolina Olea Lezama '22, Programming Intern", "Jed Quiaoit '25, Programming Intern", "Bella Hook '25, Social Media Intern"];
+                let text = "";
                 for(var i = 0; i < arr. length ; i++){
-                    arr[i] += arr[i] + "\n";
+                    text = text + arr[i]+ '<br />';
                 }
-                document.getElementById("arrPrint").innerHTML = arr;
+                document.getElementById("arrPrint").innerHTML = text;
                 </script>
             </div>
         </div>
