@@ -55,10 +55,10 @@
                 for (i = 0; i < events.length; i++){
                     var str = "";
                     str ="<div id=" + "song" + i + ">";
-                    str += "<dl><dt style='font-size: 20px; font-weight: 700;'>" + events[i].title + "</dt>";
-                    str += "<dt>Date: " + events[i].date + " </dt>";
-                    str += "<dt id='genre'>Details: " + events[i].detail + " </dt>";
-                    str += "<dt>Time: " + events[i].time + " pm </dt>";
+                    str += "<dl><dt style='font-size: 20px; font-weight: 700; color: #2596be;'>" + events[i].title + "</dt>";
+                    str += "<dt style='color: #036892;'>Date: " + events[i].date + " </dt>";
+                    str += "<dt id='genre' style='color: #036892;'>Details: " + events[i].detail + " </dt>";
+                    str += "<dt style='color: #036892;'>Time: " + events[i].time + " pm </dt>";
                     str += "</dl></div>";
 
                     event_data.innerHTML += str;
