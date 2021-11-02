@@ -1,0 +1,38 @@
+[
+    {
+        "title":"National First-Generation Day Celebration",
+        "date":"Novermber 8",
+        "detail":"Come to CC to celebrate National First-generation day! We will have pin making, a photo campaign, and a great community to celebrate with!",
+        "time": 3
+    },
+    {
+        "title":"First-Gen/Quest Day Celebration!",
+        "date":"November 20",
+        "detail":"Come join First Gen Collective and Questbridge virtually from 4-6pm! We'll be celebrating and getting to know other FGLI students. We hope to see you all there!",
+        "time": 4
+    },
+    {
+        "title":"Thanksgiving at Tufts",
+        "date":"November 28",
+        "detail":"Join your fellow Jumbos for a Thanksgiving dinner! (RSVP required)",
+        "time": 12
+    },
+    {
+        "title":"Virtual Fun Night",
+        "date":"December 5",
+        "detail":"Join in playing classic games like Among Us, Just Dance, and more! We'll also be giving out Grub Hub gift cards to the winners!",
+        "time": 5
+    },
+    {
+        "title":"Self-care Grab & Go",
+        "date":"December 12",
+        "detail":"Join us at the FIRST porch for our self-care grab and go! We’ll have some self-care bags, so make sure to come while supplies last! ",
+        "time": 3
+    },
+    {
+        "title":"Start Your Own Herb Garden: Plant Grab-n-Go!",
+        "date":"December 18",
+        "detail":"Join First-Gen Collective and Tufts' QuestBridge Chapter for a plant grab-n-go! We'll be giving out plants to the first 50 people to come!",
+        "time": 3
+    }
+]
