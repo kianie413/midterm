@@ -1,17 +1,21 @@
 .column {
     float: left;
-    width: 33%;
+    width: 31%;
     text-align: center;
+    align-items: center;
+    padding: 15px;
 }
 .column2{
     float: left;
-    width: 50%;
+    width: 47%;
     text-align: center;
+    padding: 15px;
 }
 .column3{
     float: left;
-    width: 33%;
+    width: 31%;
     text-align: center;
+    padding: 15px;
 }
 .row:after {
     content: "";
