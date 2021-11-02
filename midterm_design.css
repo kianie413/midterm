@@ -5,7 +5,7 @@ h1 {color: #fff;
 
 h2 {color: #2596be;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
-    text-align: center; padding: 0px;
+    font-size: 30px; text-align: center; padding: 0px;
 }
 
 h3{
@@ -101,8 +101,28 @@ background: #abdbe350;
 color: black;
 }
 
-
-
+.column {
+    float: left;
+    width: 50%;
+    height: 326px;
+    text-align: right;
+    background-color: #c3e9f2;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+img {
+    width: 700px;
+    height: auto;
+    margin-left: 50px;
+}
+.column2{
+    text-align:center;
+    width:33%;
+    float: left;
+}
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
