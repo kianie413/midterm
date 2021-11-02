@@ -78,7 +78,7 @@ a {
 .nav {
 overflow: hidden;
 background-color:  #ffffff;
-position: relative;
+position: fixed;
 top: 80;
 left: 0%;
 width: 100%;
