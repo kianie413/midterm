@@ -32,7 +32,7 @@ body{
 .site_header {
     background-image: url('background.jpeg');
     background-repeat: no-repeat;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -78,7 +78,7 @@ a {
 .nav {
 overflow: hidden;
 background-color:  #ffffff;
-position: absolute;
+position: fixed;
 top: 80;
 left: 0%;
 width: 100%;
