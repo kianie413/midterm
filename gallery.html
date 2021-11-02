@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="text/javascript"></script>
+        <title> Gallery </title>
+
+        <script type= "text/javascript">
+            $(document).ready(function(){
+                $('#set1').fadeOut(1500).delay(1500).fadeIn(1500);
+                $('#set2').fadeOut(1500).delay(1500).fadeIn(1500);
+                $('#set3').fadeOut(1500).delay(1500).fadeIn(1500);
+                $('#set4').fadeOut(1500).delay(1500).fadeIn(1500);
+            });
+        </script>
+    </head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial;
+    }
+
+    .header {
+        text-align: center;
+        padding: 32px;
+    }
+
+    .row {
+        display: -ms-flexbox; 
+        display: flex;
+        -ms-flex-wrap: wrap; 
+        flex-wrap: wrap;
+        padding: 0 4px;
+    }
+
+    .column {
+        -ms-flex: 25%; 
+        flex: 25%;
+        max-width: 25%;
+        padding: 0 4px;
+    }
+
+    .column img {
+        margin-top: 8px;
+        vertical-align: middle;
+        width: 100%;
+    }
+
+    @media screen and (max-width: 800px) {
+        .column {
+            -ms-flex: 50%;
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .column {
+            -ms-flex: 100%;
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+    </style>
+<body>
+
+    <div class="header">
+    <h1>First Gallery</h1>
+    <p>Take a peek into our community!</p>
+    </div>
+
+    <div class="row"> 
+        <div class="column" id = "set1">
+            <img src="gall1.jpeg" style="width:100%">
+            <img src="gall2.jpeg" style="width:100%">
+            <img src="gall3.jpeg" style="width:100%">
+            <img src="gall4.jpeg" style="width:100%">
+            <img src="gall5.jpeg" style="width:100%">
+            <img src="gall6.png" style="width:100%">
+        </div>
+        <div class="column" id = "set2">
+            <img src="gall1.jpeg" style="width:100%">
+            <img src="gall2.jpeg" style="width:100%">
+            <img src="gall3.jpeg" style="width:100%">
+            <img src="gall4.jpeg" style="width:100%">
+            <img src="gall5.jpeg" style="width:100%">
+            <img src="gall6.png" style="width:100%">
+        </div>
+        <div class="column" id = "set3">
+            <img src="gall1.jpeg" style="width:100%">
+            <img src="gall2.jpeg" style="width:100%">
+            <img src="gall3.jpeg" style="width:100%">
+            <img src="gall4.jpeg" style="width:100%">
+            <img src="gall5.jpeg" style="width:100%">
+            <img src="gall6.png" style="width:100%">
+        </div>
+        <div class="column" id = "set4">
+            <img src="gall1.jpeg" style="width:100%">
+            <img src="gall2.jpeg" style="width:100%">
+            <img src="gall3.jpeg" style="width:100%">
+            <img src="gall4.jpeg" style="width:100%">
+            <img src="gall5.jpeg" style="width:100%">
+            <img src="gall6.png" style="width:100%">
+        </div>
+    </div>
+
+</body>
+</html>
