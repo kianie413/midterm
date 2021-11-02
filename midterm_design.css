@@ -115,13 +115,9 @@ color: black;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-}
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
-}
-
+    
 .dropdown-content {
-  display: box;
+  display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
