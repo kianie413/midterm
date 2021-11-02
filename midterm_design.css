@@ -100,14 +100,6 @@ font-size: 17px;
 background: #abdbe350;
 color: black;
 }
-
-.column4 {
-    float: left;
-    width: 50%;
-    height: 326px;
-    text-align: right;
-    background-color: #c3e9f2;
-}
 .row:after {
     content: "";
     display: table;
@@ -118,10 +110,27 @@ img {
     height: auto;
     margin-left: 50px;
 }
+.column {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
 .column2{
     text-align:center;
     width:33%;
     float: left;
+}
+.column3{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.column4 {
+    float: left;
+    width: 50%;
+    height: 326px;
+    text-align: right;
+    background-color: #c3e9f2;
 }
 @media screen and (max-width: 600px) {
     .column {
